@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manjan Prompts · The creator's prompt library</title>
+<meta name="description" content="Read, copy and download 350 free master prompts for AI videos, animation, ASMR, animals and storytelling.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand"><span class="brand-mark">M</span><span>Manjan <em>Prompts</em></span></a>
+    <span class="free-badge">✦ All prompts are free</span>
+    <label class="header-search">🔍 <input id="search" type="search" placeholder="Search prompts..." autocomplete="off"></label>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <h1>Your free <span>prompt library.</span></h1>
+    <p>Read, copy or download any master prompt for free.</p>
+    <div class="stats">
+      <div class="stat"><b id="stat-prompts">350</b><span>master prompts</span></div>
+      <div class="stat"><b id="stat-cats">13</b><span>categories</span></div>
+      <div class="stat"><b>$0</b><span>forever free</span></div>
+    </div>
+  </section>
+</main>
+
+<div class="controls">
+  <div class="container">
+    <div class="controls-row">
+      <div class="pills" id="pills"></div>
+      <select class="sortsel" id="sort">
+        <option value="new">Newest first</option>
+        <option value="old">Oldest first</option>
+        <option value="az">A – Z</option>
+        <option value="words">Longest prompts</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<main class="container">
+  <p class="result-count" id="count"></p>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none"><b>No prompts found</b>Try a different search or category.</div>
+  <nav class="pagination" id="pages"></nav>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="index.html" class="brand" style="font-size:1rem"><span class="brand-mark" style="width:28px;height:28px;font-size:.9rem">M</span><span>Manjan <em>Prompts</em></span></a>
+    <span class="spacer"></span>
+    <span>350 free master prompts.</span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
